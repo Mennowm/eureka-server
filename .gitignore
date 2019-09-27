@@ -1,0 +1,7 @@
+/TRACE_FILE_IS_UNDEFINED
+/.mvn/
+/.settings/
+/logs/
+/target/
+*.project
+*.classpath

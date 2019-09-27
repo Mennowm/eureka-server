@@ -1,0 +1,12 @@
+server:
+  port: ${spring.boot.server.port:8800}
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl: 
+      defaultZone: http://${eureka.host:localhost}:${server.port:8800}/eureka
+
+logging:
+    path: logs/es
